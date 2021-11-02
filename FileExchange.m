@@ -101,7 +101,7 @@ while(1)
         disp(append('Copying ',num2str(length(file)),' files to folder...'))
         
         for i = 1:1:length(file) % Copy files to designated/specified location
-            if not(isfolder(dir(i)))
+            if not(isfolder(dir(i))) % This argument creates folder if not exist
                 mkdir(dir(i))
                 disp(append('Folder has been created at ',dir(i)))
             end
