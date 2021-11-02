@@ -1,5 +1,6 @@
 clear;
 clc;
+
 disp('File Exchange Program v2.2 by Sage Ching-Huai Wang')
 disp('[!] Make sure this program lays in the same directory as source, apple Change To Folder if prompted while running')
 disp("[!] Make sure files to be exchanged are set to status 'open'")
@@ -172,4 +173,3 @@ while(1)
         disp('Please input Y/N') % Keep asking if input is not yes or no
     end
 end
-
