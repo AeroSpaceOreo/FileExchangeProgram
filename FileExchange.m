@@ -26,7 +26,7 @@ end
 if excelfile(end-4:end) == '.xlsx'
     pause(0)
 else
-    excelfile = appned(excelfile,'.xlsx');
+    excelfile = append(excelfile,'.xlsx');
 end
 
 disp(append('[SET Source File set as ',excelfile))
